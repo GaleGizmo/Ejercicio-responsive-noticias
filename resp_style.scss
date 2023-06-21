@@ -1,0 +1,236 @@
+img {
+    max-width: 100%;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    
+ ul {
+    display: flex;
+      justify-content: space-between;
+}   
+li {
+    padding-right: 5vw;
+}
+}
+.b-main_news {
+    display: flex;
+    
+}
+.b-main_pic{
+    width: 66%;
+}
+.b-main_text {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 33vw;
+
+}
+.b-main_headline {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.b-main_subtext {
+    font-size: 12px;
+    font-weight: 200;
+    color: darkgrey;
+}
+    .headlines-pc {
+        display: none;
+        font-size: 20px;
+        font-weight: 900;    
+        flex-direction: column;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+
+}
+.time-zone{
+    font-size: 10px;
+    color: darkgrey;
+    margin-bottom: 0px;
+    
+}
+.headlines-mobile {
+    font-size: 10px;
+    font-weight: 900;
+        border-bottom: 2px solid;
+    border-bottom-color: rgba(128, 128, 128, 0.486);
+    margin-bottom: 10vh;
+}
+
+
+.b.sec-news {
+    display: inline-block;
+    margin-top: 10vh;
+}
+.b-sec-pic {
+    width: 20%;
+}
+.b-sec-news-item {
+    display: flex;
+    margin-bottom: 10vh;
+   
+    
+}
+.b-sec-news-text {
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: space-between;
+}
+.b-sec-news-text-headline {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+
+}
+.b-sec-news-text-subtitle{
+    display: none;
+    font-size: 10px;
+    font-weight: 200;
+    color: darkgrey;
+
+}
+.b-third-news{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+}
+.b-third-pic {
+    width: 30vw;
+}
+.b-third-news-item {
+    display: inline-block;
+    
+}
+.b-third-news-text {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: space-between;
+}
+.b-third-news-item-pc {
+    display: none;
+}
+.b-third-news-mobile {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border-top: 0.5vh solid;
+    border-top-color: rgba(128, 128, 128, 0.208);
+    }
+.b-third-news-mobile-headline {
+    display: inline-block;
+    padding-right: 5vw;
+}
+.vline {
+    background-color: rgba(128, 128, 128, 0.308);
+    width: 0.5vw;
+    height: auto;
+    margin-right: 2vw;
+}
+.b-features {
+    display: flex;
+    margin-bottom: 5vh;
+    
+}  
+.b-features-txt {
+    font-size: 16px;
+    font-weight: bold;
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    width:28vw;
+}   
+
+.hline {
+    background-color: rgba(128, 128, 128, 0.308);
+    width: 72vw;
+    height: 1px;
+    margin-top: 2vh;
+}
+
+@media screen and (min-width: 576px) {
+   body {
+    width: 1000px;
+    margin: 0 auto;
+   }
+    
+   
+    .headlines-mobile {
+        display: none;
+     
+    }
+    .b-main_headline {
+        font-size: 36px;
+    }
+    .headlines-pc {
+        display: flex;
+        flex-direction: column;
+    }
+    .b-sec-news {
+            display: flex;
+            flex-wrap: wrap;
+        justify-content: space-between;
+            
+    }
+   
+    .b-sec-news-text-subtitle {
+        display: flex;
+    }
+   
+    .b-main_news{
+        margin-bottom: 10vh;
+    }
+    .b-sec-news-item {
+        display: inline-block;
+        margin-bottom: 10vh;
+        width: 30%;
+        }
+    .b-sec-pic{
+        width: 100%;
+    }
+    .b-sec-news-text {
+       
+       
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 1vh;
+        margin-bottom: 0px;
+        justify-content: space-between;
+    
+}
+.b-third-news-item-pc {
+    display: inline-block;
+    width: 18%;
+}
+.b-third-news-item {
+    width: 18%;
+}
+.b-third-news-text {
+    width: 100%;
+}
+.b-third-news-mobile {
+    display: none;
+}
+.b-features-txt {
+    
+    font-size: 28px;
+}
+.hline {
+    
+}
+}
